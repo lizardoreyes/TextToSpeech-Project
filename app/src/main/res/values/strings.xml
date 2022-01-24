@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextToSpeechProject</string>
+    <string name="play">Play</string>
+    <string name="title_language">Select Language</string>
+    <string name="message_not_support">You phone can\'t support TextToSpeech</string>
+    <string name="hint_ed_text">Please write what you want to hear…</string>
+</resources>

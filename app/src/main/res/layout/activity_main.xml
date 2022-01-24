@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:hint="@string/hint_ed_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/sp_language"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/title_language"
+        android:layout_marginVertical="20dp" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:visibility="gone"
+        tools:text="[MESSAGE]" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play" />
+
+</LinearLayout>
